@@ -1,0 +1,13 @@
+---
+- name: restart_postgres
+  service:
+    name: "{{ postgres_service }}"
+    state: restarted
+
+
+
+
+git config --global user.email "chicho@example.com"
+git config --global user.name "chicho"
+git config -l
+
